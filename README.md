@@ -7,7 +7,7 @@ TROPOMIのSO2データの解析から地図上にプロット（描画）する�
 ## 構成
 - NISHINOSHIMA_Plot.ipynb
     - TROPOMIのSO2データの解析から地図上に描画するコードです。
-- conv_NC4files.
+- conv_NC4files.py
     - 読み込んだ.ncファイルのlongitude、latitude、qa_value、time_secなどを抽出する関数が書かれています。
     - ファイル内のconv_s5p_csv関数は、プロットするためにカラムの体裁を整える関数です。
     - longitude、latitude、qa_value、time_secなどのカラムがプロットに必要なカラムです。
